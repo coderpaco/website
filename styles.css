@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    border-radius: 50%; /* Circular shape */
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin: 10px 0;
+}
+
+.key-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px; /* Adjust icon size */
+}
+
+input {
+    width: 300px; /* Adjust as needed */
+    padding: 10px 40px 10px 40px; /* Add padding for the icon */
+    border: 2px solid #ccc;
+    border-radius: 20px; /* Rounded corners */
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none;
+}
+
+.login-button {
+    width: 320px; /* Adjust as needed */
+    padding: 10px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    background-color: #007bff; /* Button color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
