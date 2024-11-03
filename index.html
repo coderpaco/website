@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vpn.wtf Panel</title>
     <link rel="icon" href="output.ico" type="image/x-icon">
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            background-color: #000;
-        }
-        canvas {
-            display: block;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-    <h1>
-        Hey, This is a test website for vpn.wtf
-    </h1>
-    <body>
-        <h2>About me</h2>
-        <p>
-            About text.
-        </p>
-        <h2>Next Paragraph Header</h2>
-        <p>
-            Paragraph text.
-        </p>
-    </body>
+<body>
+    <div class="container">
+        <img src="output.ico" alt="Icon" class="icon">
+        <div class="input-container">
+            <div class="input-box">
+                <i class="key-icon">🔑</i>
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+                <i class="key-icon">🔑</i>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button class="login-button">Login</button>
+        </div>
+    </div>
+</body>
 </html>
